@@ -3,7 +3,7 @@
 ** Clone e corra para uma maneira rápida de ver o Elétron e o React em ação. **
 
 
-![Alt Text](https://github.com/solrachix/APP-Electron-React/blob/master/imgIlustration.png|alt=octocat)
+![Alt Text](https://github.com/solrachix/APP-Electron-React/blob/master/imgIlustration.png)
 
 
 Este é um aplicativo Electron mínimo baseado no [Guia de Iniciação Rápida] (http://electron.atom.io/docs/tutorial/quick-start) na documentação da Electron.
