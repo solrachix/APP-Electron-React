@@ -31,6 +31,25 @@ Para clonar e executar este repositório, você precisará de [Git] (https://git
 ## - Mudar a porta na qual o App Inicializar
   Vá para o arquivo .env e define a nova porta na variável: PORT=<numero da porta> sem os símbolos de <>
 
+## - Ciar Packager
+###Importante:
+  Vá ao arquivo Electron.js na raiz do projeto, na linha vai encontrar isso:
+  let EmDesenvolvimento = true;
+  Mude para:
+  let EmDesenvolvimento = false;
+
+####Primeiramente faça o build do React, executando:
+  npm run buildReact
+  OU
+  yarn buildReact
+####Agora empacote o Electron, executando:
+    npm run buildElectron
+    OU
+    yarn buildElectron
+
+####Observações:
+  O script "buildElectron" está configurado para linux, você pode trocacar isso no campo buildElectron, dentro
+  do objeto script no package.json.
 
 Saiba mais sobre o Electron e sua API na [documentação] (http://electron.atom.io/);
 Saiba mais sobre o React e sua API na [documentação] (https://pt-br.reactjs.org/).
