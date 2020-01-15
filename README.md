@@ -39,9 +39,9 @@ Para clonar e executar este repositório, você precisará de [Git] (https://git
   let EmDesenvolvimento = false;
 
 #### Primeiramente faça o build do React, executando:
-  npm run buildReact
-  OU
-  yarn buildReact
+    npm run buildReact
+    OU
+    yarn buildReact
 #### Agora empacote o Electron, executando:
     npm run buildElectron
     OU
