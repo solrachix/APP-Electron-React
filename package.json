@@ -13,7 +13,7 @@
     "find-free-port": "^2.0.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0",
+    "react-scripts": "5.0.1",
     "wait-on": "^3.3.0"
   },
   "scripts": {
